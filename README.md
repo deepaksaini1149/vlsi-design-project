@@ -83,7 +83,7 @@ always #75 sel = ~sel;
 endmodule
 ```
 ### Flow 
-
+```
 Specification
       |
       v
@@ -112,6 +112,7 @@ Waveform Verification
       |
       v
 GitHub Documentation
+```
 ### Summary
 Project          : 2:1 Multiplexer
 HDL              : Verilog
