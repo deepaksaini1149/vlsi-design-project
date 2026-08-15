@@ -116,19 +116,12 @@ GitHub Documentation
 ### Summary
 
 Project          : 2:1 Multiplexer
-
 HDL              : Verilog
-
 Design Type      : Combinational Logic
-
 Inputs           : i0, i1, sel
-
 Output           : y
-
 Simulator        : Icarus Verilog
-
 Waveform Tool    : GTKWave
-
 Waveform File    : tb_good_mux.vcd
 Repository       : GitHub
 Verification     : Successful
