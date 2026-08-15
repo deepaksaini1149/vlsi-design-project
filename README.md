@@ -113,7 +113,7 @@ Waveform Verification
       v
 GitHub Documentation
 ```
-### Summary
+## Summary
 
 Project          : 2:1 Multiplexer
 HDL              : Verilog
