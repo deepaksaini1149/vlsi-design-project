@@ -34,8 +34,8 @@ A 2:1 MUX has:
 - One output: `y`
 
 ### Selection Operation
-
-```text
+## Code
+``` 
 sel = 0  ->  y = i0
 sel = 1  ->  y = i1
 module good_mux(
@@ -48,7 +48,9 @@ output y
 assign y = sel ? i1 : i0;
 
 endmodule
-
+```
+## Test bench
+```
 module tb_good_mux;
 
 reg i0;
@@ -79,9 +81,9 @@ always #55 i1 = ~i1;
 always #75 sel = ~sel;
 
 endmodule
+```
+### Flow 
 
-
-### Flow  
 Specification
       |
       v
@@ -110,7 +112,7 @@ Waveform Verification
       |
       v
 GitHub Documentation
-
+### Summary
 Project          : 2:1 Multiplexer
 HDL              : Verilog
 Design Type      : Combinational Logic
