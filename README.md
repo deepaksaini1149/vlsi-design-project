@@ -114,6 +114,7 @@ Waveform Verification
 GitHub Documentation
 ```
 ### Summary
+```
 Project          : 2:1 Multiplexer
 HDL              : Verilog
 Design Type      : Combinational Logic
